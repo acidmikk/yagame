@@ -3,6 +3,127 @@
   <component name="ChangeListManager">
     <list default="true" id="74044f44-4526-4e49-917f-e213efb0c897" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/59-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bonus/3bal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bonus/creatl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bonus/creatsh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bonus/fastv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bonus/life.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bonus/lowv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/0b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/1b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/2b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/3b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/4b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/5b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/6b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/7b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/8b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/bricks/9b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/player/long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/player/norm1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/player/norm2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/player/norm3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/player/short.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/points/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/points/250.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/points/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/points/500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/32-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/33-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/34-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/35-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/36-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/37-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/44-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/45-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/48-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Breakout Tile Set Free/trash/49-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/._Breakout Tile Set Free" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._Sprite Sheet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._Vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/._sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._01-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._02-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._03-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._04-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._05-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._06-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._07-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._08-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._09-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._10-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._11-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._12-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._13-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._14-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._15-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._16-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._17-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._18-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._19-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._20-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._21-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._22-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._23-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._24-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._25-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._26-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._27-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._28-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._29-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._30-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._31-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._32-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._33-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._34-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._35-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._36-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._37-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._38-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._39-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._40-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._41-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._42-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._43-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._44-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._45-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._46-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._47-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._48-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._49-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._50-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._51-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._52-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._53-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._54-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._55-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._56-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._57-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._58-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._59-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._60-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/PNG/._61-Breakout-Tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/Sprite Sheet/._Breakout_Tile_Free.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/Sprite Sheet/._Breakout_Tile_Free.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/Vector/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/Vector/._Breakout Tile Set Free.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__MACOSX/Breakout Tile Set Free/Vector/._Breakout Tile Set Free.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +140,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="197">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
-                <element signature="e#58#71#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/player/norm1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa11916.29656/c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="307">
+              <caret line="85" selection-start-line="85" selection-end-line="88" selection-end-column="43" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -56,6 +182,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa11916.29656/c.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -79,6 +206,17 @@
             <path>
               <item name="yagame" type="b2602c69:ProjectViewProjectNode" />
               <item name="yagame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yagame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yagame" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yagame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yagame" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +305,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -189,10 +327,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pygame/sprite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="474" selection-start-line="474" selection-end-line="474" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/player/norm1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa11916.29656/c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="307">
+          <caret line="85" selection-start-line="85" selection-end-line="88" selection-end-column="43" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -201,10 +349,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="197">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
-            <element signature="e#58#71#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
