@@ -42,7 +42,12 @@ vertical_borders = pygame.sprite.Group()
 background = load_image('background.jpg')
 ballimg = pygame.transform.scale(load_image('ball.png'), (20, 20))
 plife = 3
+point = 0
 
+
+def score():
+    global point
+    point += 50
 
 
 def life():
@@ -74,11 +79,11 @@ class Ball(pygame.sprite.Sprite):#класс игрового шара
         self.start = size[0] // 2 - self.rect[3] // 2, size[1] - 300
         self.rect.x = self.start[0]
         self.rect.y = self.start[1]
-        self.vx = randint(-5, 5)
-        self.vy = randint(-5, 5)
-        while self.vx == 0 or self.vy == 0 or abs(self.vx) < 3 or abs(self.vy) < 3:
-            self.vx = randint(-5, 5)
-            self.vy = randint(-5, 5)
+        self.vx = randint(-6, 6)
+        self.vy = randint(-6, 6)
+        while self.vx == 0 or self.vy == 0 or abs(self.vx) < 4 or abs(self.vy) < 4:
+            self.vx = randint(-6, 6)
+            self.vy = randint(-6, 6)
 
     def update(self):
         self.rect = self.rect.move(self.vx, self.vy)
@@ -87,20 +92,16 @@ class Ball(pygame.sprite.Sprite):#класс игрового шара
                 self.vy = -self.vy
             else:
                 self.rect.x, self.rect.y = self.start
-                self.vx = randint(-5, 5)
-                self.vy = randint(-5, 5)
-                while self.vx == 0 or self.vy == 0 or abs(self.vx) < 3 or abs(self.vy) < 3:
-                    self.vx = randint(-5, 5)
-                    self.vy = randint(-5, 5)
+                self.vx = randint(-6, 6)
+                self.vy = randint(-6, 6)
+                while self.vx == 0 or self.vy == 0 or abs(self.vx) < 4 or abs(self.vy) < 4:
+                    self.vx = randint(-6, 6)
+                    self.vy = randint(-6, 6)
                 life()
         if pygame.sprite.spritecollideany(self, vertical_borders):
             self.vx = -self.vx
         if pygame.sprite.spritecollideany(self, player_sp):
             self.vy = -abs(self.vy)
-        if pygame.sprite.spritecollideany(self,hor_bricks):
-            self.vy = -self.vy
-        if pygame.sprite.spritecollideany(self,ver_bricks):
-            self.vx = -self.vx
 
 
 class Brick(pygame.sprite.Sprite):
@@ -125,6 +126,7 @@ class Brick(pygame.sprite.Sprite):
                 self.image = pygame.transform.scale\
                     (load_image('bricks/' + self.nb + '.png'), (96, 32))
             else:
+                score()
                 self.kill()
                 for _ in self.borders:
                     _.kill()
@@ -160,12 +162,12 @@ class Paddle(pygame.sprite.Sprite):
         self.image = pygame.transform.scale\
             (load_image('player/' + self.name + '.png'), (121, 32))
         if self.moving_left:
-            if self.rect.x == 5:
+            if self.rect.x < 5:
                 pass
             else:
                 self.rect.x -= 12
         if self.moving_right:
-            if self.rect.x == size[0] - 121 - 5:
+            if self.rect.x > size[0] - 121 - 5:
                 pass
             else:
                 self.rect.x += 12
@@ -202,13 +204,15 @@ while sp:
 
 text1 = myfont.render('PRESS SPACE TO CONTINUE', 1, pygame.Color('white'))
 place = text1.get_rect(center=(size[0] // 2, size[1] // 2))
-lifefont = pygame.font.Font(None, 32)
-lifetext = lifefont.render('LIFE: ' + str(plife), 1, pygame.Color('white'))
-screen.blit(lifetext, )
+lifefont = pygame.font.Font(None, 24)
 
 
 while running:
     screen.blit(background, (0, 0))
+    lifetext = lifefont.render('LIFE: ' + str(plife), 1, pygame.Color('white'))
+    screen.blit(lifetext, (30, 5))
+    scor = lifefont.render('SCORE: ' + str(point), 1, pygame.Color('white'))
+    screen.blit(scor, (910, 5))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             terminate()
@@ -231,5 +235,15 @@ while running:
     all_sp.draw(screen)
     all_sp.update()
     pygame.display.flip()
+    if not plife:
+        screen.blit(background, (0, 0))
+        gg = myfont.render('GAME OVER', 1, pygame.Color('white'))
+        rgg = gg.get_rect(center=(size[0] // 2, size[1] // 2))
+        screen.blit(gg, rgg)
+        pygame.display.flip()
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    terminate()
 
 pygame.quit()
