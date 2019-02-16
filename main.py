@@ -10,7 +10,7 @@ def terminate():
     sys.exit()
 
 
-def load_image(name, color_key=None): #функция для загрузки изображений
+def load_image(name, color_key=None):       #функция для загрузки изображений
     fullname = os.path.join('data', name)
     try:
         image = pygame.image.load(fullname)
@@ -69,7 +69,7 @@ class Border(pygame.sprite.Sprite):
             self.rect = pygame.Rect(x1, y1, x2 - x1, 1)
 
 
-class Ball(pygame.sprite.Sprite):#класс игрового шара
+class Ball(pygame.sprite.Sprite):    #класс игрового шара
 
     def __init__(self):
         super().__init__(all_sp)
@@ -104,7 +104,7 @@ class Ball(pygame.sprite.Sprite):#класс игрового шара
             self.vy = -abs(self.vy)
 
 
-class Brick(pygame.sprite.Sprite):
+class Brick(pygame.sprite.Sprite):      #класс блока
     def __init__(self, x, y, special_effect=None):
         super().__init__(all_sp)
         self.add(blocks_sp)
@@ -130,9 +130,10 @@ class Brick(pygame.sprite.Sprite):
                 self.kill()
                 for _ in self.borders:
                     _.kill()
+        #изменение блока или его удаление в случае разбития
 
 
-class Paddle(pygame.sprite.Sprite):
+class Paddle(pygame.sprite.Sprite):     #игрок
     def __init__(self):
         super().__init__(all_sp)
         self.add(player_sp)
@@ -179,6 +180,7 @@ for y in range(5):
         Brick(x * 96 + 30, y * 32 + 20)
 Ball()
 Paddle()
+#стенки
 Border(5, 5, size[0] - 5, 5)
 Border(5, size[1] - 5, size[0] - 5, size[1] - 5)
 Border(5, 5, 5, size[1] - 5)
