@@ -2,6 +2,12 @@ import pygame
 import os
 from random import choice
 from random import randint
+import sys
+
+
+def terminate():
+    pygame.quit()
+    sys.exit()
 
 
 def load_image(name, color_key=None): #функция для загрузки изображений
@@ -30,14 +36,18 @@ ball_sp = pygame.sprite.Group(all_sp)
 blocks_sp = pygame.sprite.Group(all_sp)
 player_sp = pygame.sprite.Group(all_sp)
 horizontal_borders = pygame.sprite.Group()
+hor_bricks = pygame.sprite.Group(all_sp)
+ver_bricks = pygame.sprite.Group(all_sp)
 vertical_borders = pygame.sprite.Group()
 background = load_image('background.jpg')
 ballimg = pygame.transform.scale(load_image('ball.png'), (20, 20))
-life = 3
+plife = 3
 
 
-def Life(life):
-    life -= 1
+
+def life():
+    global plife
+    plife -= 1
 
 
 class Border(pygame.sprite.Sprite):
@@ -82,11 +92,15 @@ class Ball(pygame.sprite.Sprite):#класс игрового шара
                 while self.vx == 0 or self.vy == 0 or abs(self.vx) < 3 or abs(self.vy) < 3:
                     self.vx = randint(-5, 5)
                     self.vy = randint(-5, 5)
-                Life(life)
+                life()
         if pygame.sprite.spritecollideany(self, vertical_borders):
             self.vx = -self.vx
         if pygame.sprite.spritecollideany(self, player_sp):
             self.vy = -abs(self.vy)
+        if pygame.sprite.spritecollideany(self,hor_bricks):
+            self.vy = -self.vy
+        if pygame.sprite.spritecollideany(self,ver_bricks):
+            self.vx = -self.vx
 
 
 class Brick(pygame.sprite.Sprite):
@@ -99,10 +113,10 @@ class Brick(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
-        # Border(x - 1, y - 1, x - 1, y + 32 - 1)
-        # Border(x - 1, y - 1 + 32, x - 1 + 96, y - 1 + 32)
-        # Border(x + 96 - 1, y - 1, x + 96 - 1, y + 32 - 1)
-        # Border(x - 1, y - 1, x + 96 - 1, y - 1)
+        self.borders = [Border(x + 1, y + 1, x + self.rect[2] - 1, y + 1),
+                        Border(x + 1, y + self.rect[3] - 1, x + self.rect[2] - 1, y + self.rect[3] - 1),
+                        Border(x + 1, y + 1, x + 1, y + self.rect[3] - 1),
+                        Border(x + self.rect[2] - 1, y + 1, x + self.rect[2] - 1, y + self.rect[3] - 1)]
 
     def update(self):
         if pygame.sprite.spritecollideany(self, ball_sp):
@@ -112,15 +126,8 @@ class Brick(pygame.sprite.Sprite):
                     (load_image('bricks/' + self.nb + '.png'), (96, 32))
             else:
                 self.kill()
-        if pygame.sprite.spritecollideany(self, ball_sp):
-            if ball_sp.sprites()[0].rect.y > self.rect.y + 32:
-                ball_sp.sprites()[0].vy = -ball_sp.sprites()[0].vy
-            elif ball_sp.sprites()[0].rect.y + 20 < self.rect.y:
-                ball_sp.sprites()[0].vy = -ball_sp.sprites()[0].vy
-            elif ball_sp.sprites()[0].rect.x + 20 < self.rect.x:
-                ball_sp.sprites()[0].vx = -ball_sp.sprites()[0].vx
-            elif ball_sp.sprites()[0].rect.x > self.rect.x + 96:
-                ball_sp.sprites()[0].vx = -ball_sp.sprites()[0].vx
+                for _ in self.borders:
+                    _.kill()
 
 
 class Paddle(pygame.sprite.Sprite):
@@ -153,9 +160,15 @@ class Paddle(pygame.sprite.Sprite):
         self.image = pygame.transform.scale\
             (load_image('player/' + self.name + '.png'), (121, 32))
         if self.moving_left:
-            self.rect.x -= 10
+            if self.rect.x == 5:
+                pass
+            else:
+                self.rect.x -= 12
         if self.moving_right:
-            self.rect.x += 10
+            if self.rect.x == size[0] - 121 - 5:
+                pass
+            else:
+                self.rect.x += 12
 
 
 #отрисовка всего
@@ -172,13 +185,46 @@ Border(size[0] - 5, 5, size[0] - 5, size[1] - 5)
 fps = 60
 running = True
 
+screen.blit(background, (0, 0))
+myfont = pygame.font.Font(None, 50)
+text1 = myfont.render('PRESS SPACE TO START', 1, pygame.Color('white'))
+place = text1.get_rect(center=(size[0] // 2, size[1] // 2))
+screen.blit(text1, place)
+pygame.display.flip()
+sp = True
+while sp:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            terminate()
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                sp = False
+
+text1 = myfont.render('PRESS SPACE TO CONTINUE', 1, pygame.Color('white'))
+place = text1.get_rect(center=(size[0] // 2, size[1] // 2))
+lifefont = pygame.font.Font(None, 32)
+lifetext = lifefont.render('LIFE: ' + str(plife), 1, pygame.Color('white'))
+screen.blit(lifetext, )
+
+
 while running:
     screen.blit(background, (0, 0))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
+            terminate()
         if event.type == pygame.KEYDOWN:
             player_sp.sprites()[0].get_event(event)
+            if event.key == pygame.K_ESCAPE:
+                screen.blit(text1, place)
+                pygame.display.flip()
+                sp = True
+                while sp:
+                    for event in pygame.event.get():
+                        if event.type == pygame.QUIT:
+                            terminate()
+                        if event.type == pygame.KEYDOWN:
+                            if event.key == pygame.K_SPACE:
+                                sp = False
         if event.type == pygame.KEYUP:
             player_sp.sprites()[0].get_event(event)
     clock.tick(fps)
